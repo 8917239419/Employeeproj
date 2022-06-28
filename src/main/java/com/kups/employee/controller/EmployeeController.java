@@ -15,7 +15,7 @@ import com.kups.employee.repository.EmployeeRepo;
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
-	
+	//Autowired the dependent class
 	@Autowired
 	private EmployeeRepo employeeRepo;
 	
